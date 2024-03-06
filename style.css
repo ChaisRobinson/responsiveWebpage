@@ -1,0 +1,309 @@
+
+
+
+
+/* Media Query */
+
+/*--------------- Desktop Veiw */
+@media  (max-width: 1580px) {
+    body{
+        background-color: aqua;
+    }
+
+    .boxOne{
+        border: solid black;
+        background-color: turquoise;
+        display: flex;
+    }
+    .naruto{
+        height: 100%;
+    }
+    .narutoTwo{
+        height: 100%;
+    }
+    .narutoThree{
+        height: 100%;
+    }
+    .narutoFour{
+        height: 100%;
+    }
+    .boxTwo{
+        border: solid midnightblue;
+        background-color: aquamarine;
+        display: block;
+        
+    }
+    .boxThree{
+        display: flex;
+        flex-flow: column wrap ;
+
+        
+    }
+    
+    .text{
+        color: yellow;
+        font-family: '8BIT WONDER', sans-serif;
+        text-align: center;
+                                                    
+    }
+    
+    .yugi{
+        height: 100px;
+        width: 100px;
+    }
+    .kuriboh{
+        height: 50px;
+        width: 50px;
+    }
+    .kuriboh2{
+        height: 50px;
+        width: 50px;
+    }
+    .kuriboh3{
+        height: 50px;
+        width: 50px;
+    }
+    .kuriboh4{
+        height: 50px;
+        width: 50px;
+    }
+    .kuriboh5{
+        height: 50px;
+        width: 50px;
+    }
+    .kuriboh6{
+        height: 50px;
+        width: 50px;
+    }
+    .boxFour{
+        border: solid black;
+        display: flex;
+        background-color: blue;
+    }
+    .boxFive{
+        padding: 2em;
+    
+    
+    }
+    .boxSix{
+        padding: 2em;
+    
+    }
+    
+   
+  }
+/* -------------End Desktop */
+
+
+/*--------------- Ipad Tablet Veiw */
+@media  (max-width: 980px) {
+    body{
+        background-color: tomato ;
+    }
+
+    .boxOne{
+        border: solid black;
+        background-color: salmon;
+        display: flex;
+    }
+    .naruto{
+        height: 100%;
+    }
+    .narutoTwo{
+        height: 100%;
+    }
+    .narutoThree{
+        height: 100%;
+        display: none;
+    }
+    .narutoFour{
+        height: 100%;
+        display: none;
+    }
+    .boxTwo{
+        border: solid midnightblue;
+        background-color: red;
+    }
+    .boxThree{
+        display: flex;
+        flex-flow: row nowrap ;
+    }
+    
+    .text{
+        color: blue;
+        font-family: '8BIT WONDER', sans-serif;
+        text-align: center;
+                                                    
+    }
+    
+    .yugi{
+        height: 100px;
+        width: 100px;
+        
+    }
+    .kuriboh{
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    .kuriboh2{
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    .kuriboh3{
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    .kuriboh4{
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    .kuriboh5{
+        height: 50px;
+        width: 50px;
+        display: block;
+    }
+    .kuriboh6{
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    .boxFour{
+        border: solid black;
+        display: none;
+        background-color: blue;
+    }
+    .boxFive{
+        padding: 2em;
+    
+    
+    }
+    .boxSix{
+        padding: 2em;
+    
+    }
+  
+    
+  }
+/* -------------ipad tablet */
+
+
+/*--------------- Mobile Veiw */
+@media  (max-width: 580px) {
+
+    body{
+        background-color: green;
+    }
+    .boxOne{
+        border: solid black;
+        background-color: greenyellow;
+        display: block;
+      
+    }
+    
+    .naruto{
+        height: 100%;
+        
+    }
+    .narutoTwo{
+        height: 100%;
+        display: none;
+    }
+    .narutoThree{
+        height: 100%;
+        display: none;
+    }
+    .narutoFour{
+        height: 100%;
+        display: none;
+    }
+
+    .boxTwo{
+        border: solid midnightblue;
+        background-color: yellowgreen;
+        
+    }
+    .boxThree{
+        display: flex;
+        flex-flow: row nowrap ;
+    }
+    
+    .text{
+        color: whitesmoke;
+        font-family: '8BIT WONDER', sans-serif;
+        text-align: center;
+                                                    
+    }
+    
+    .yugi{
+        height: 100px;
+        width: 100px;
+    }
+    .kuriboh{
+        height: 50px;
+        width: 50px;
+        display: none;
+        
+    }
+    .kuriboh2{
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    .kuriboh3{
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
+    .kuriboh4{
+        height: 50px;
+        width: 50px;
+        display: flex;
+    }
+    .kuriboh5{
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    .kuriboh6{
+        height: 50px;
+        width: 50px;
+        display: none;
+    }
+    .boxFour{
+        border: solid black;
+        display: none;
+        background-color: blue;
+
+    }
+    .boxFive{
+        padding: 2em;
+    
+    
+    }
+    .boxSix{
+        padding: 2em;
+    
+    }
+    
+  }
+/* -------------Mobile Desktop */
+
+
+
+/* Noraml CSS */
+
+
+
+
+
+
+
+
+
+
+
+
